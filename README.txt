@@ -6,3 +6,7 @@ In this project, we already implement these gestures:
 2.Play the rock game.
 3.Rotation Scale Movement etc.
 
+If you want to add a new gesture recognition module, you just need to do several steps:
+1.Creat A class Extend the AbstractActionChecker.
+2.Implement the checkAction method and exitmethod.
+3.Add this your actionchecker to ActionManager Class.
